@@ -1,0 +1,79 @@
+/* CSS (Custom Styles) */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.custom-divider {
+  border-top: 1px solid #fff;
+  margin: 20px 0;
+}
+
+.logo {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.coding-divider i {
+  color: #fff;
+}
+
+.coding-divider {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+.coding-divider::before,
+.coding-divider::after {
+  content: '';
+  display: inline-block;
+  width: 20%;
+  height: 4px;
+  background-color: #fff;
+}
+
+.coding-divider::before {
+  margin-right: 10px;
+}
+
+.coding-divider::after {
+  margin-left: 10px;
+}
+
+.card {
+  border: none;
+  background-color: #7E8D85;
+}
+
+#projects {
+  background-color: #7E8D85;
+}
+
+#projects h2 {
+  color: white;
+}
+
+.profile-pic {
+  margin-top: 10%; /* Adjust the value as needed */
+}
+
+/* Your CSS stylesheet */
+.btn-custom {
+  background-color: #7E8D85; /* Set the background color to #7E8D85 */
+  color: #fff; /* Set the text color to white */
+  border-color: #7E8D85; /* Set the border color to #7E8D85 */
+}
+
+.btn-custom:hover {
+  background-color: #6C7A70; /* Change the background color on hover to a slightly darker shade */
+  border-color: #6C7A70; /* Change the border color on hover to a slightly darker shade */
+}
