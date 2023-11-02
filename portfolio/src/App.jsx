@@ -4,13 +4,15 @@ import HomePage from './components/HomePage';
 import ProjectsSection from './components/ProjectsSection';
 import Skills from './components/Skills'
 import Locations from './components/Locations';
-import './index.css'
-
+import 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <NavBar />
       <HomePage />
       <ProjectsSection />

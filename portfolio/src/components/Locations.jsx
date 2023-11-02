@@ -4,14 +4,30 @@ function Locations() {
   return (
     <div id="locations" className="py-5" style={{ backgroundColor: '#333', color: '#fff' }}>
       <div className="container text-center">
-        <h1 className="mb-4" style={{ fontSize: '2rem' }}>CONTACT</h1>
+        <div className="coding-divider">
+          <a
+            href="https://github.com/ajSeadler"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link"
+          >
+            <i className="fa fa-address-card fa-2x"></i>
+          </a>
+        </div>
+        <h2 className="display-6 mb-4">CONTACT</h2>
         <div className="row">
           <div className="col-md-12 mb-4">
-            <h2 style={{ fontSize: '1.5rem' }}>Location</h2>
-            <h3 style={{ fontSize: '1rem' }}>Oklahoma City, OK</h3>
+            <h2 className="h4">
+              <i className="fa fa-envelope-o fa-2x"></i> Email
+            </h2>
+            <p>aj6287@gmail.com</p>
           </div>
           <div className="col-md-12 mb-4">
-            <h2 style={{ fontSize: '1.5rem' }}>Connect With Me</h2>
+            <h2 className="h4">Location</h2>
+            <p>Oklahoma City, OK</p>
+          </div>
+          <div className="col-md-12 mb-4">
+            <h2 className="h4">Connect With Me</h2>
             <div className="social-links">
               <a
                 href="https://www.linkedin.com/in/anthony-seadler"
@@ -32,14 +48,14 @@ function Locations() {
             </div>
           </div>
           <div className="col-md-12">
-            <h2 style={{ fontSize: '1.5rem' }}>Download Resume</h2>
+            <h3 className="h4">Download Resume</h3>
             <div className="resume-download">
               <a
                 href="#"  // Add your resume file URL when available
                 className="btn btn-custom btn-lg"
                 download
               >
-                <i className="far fa-file-pdf fa-lg" style={{ color: '#7E8D85' }}></i> Download Resume
+                <i className="far fa-file-pdf fa-lg" style={{ color: 'white' }}></i> .pdf
               </a>
             </div>
           </div>
