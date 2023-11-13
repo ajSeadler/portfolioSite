@@ -11,10 +11,10 @@ function Locations() {
             rel="noopener noreferrer"
             className="social-link"
           >
-            <i className="fa fa-address-card fa-2x"></i>
+            <i className="fa fa-address-card fa-1x"></i>
           </a>
         </div>
-        <h2 className="display-6 mb-4">CONTACT</h2>
+        <h2 className="display-7 mb-4">CONTACT</h2>
         <div className="row">
           <div className="col-md-12 mb-4">
             <h2 className="h4">
@@ -35,7 +35,7 @@ function Locations() {
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <i className="fab fa-linkedin fa-3x" style={{ marginRight: '15px', color: '#7E8D85' }}></i>
+                <i className="fab fa-linkedin fa-2x" style={{ marginRight: '15px' }}></i>
               </a>
               <a
                 href="https://github.com/ajSeadler"
@@ -43,7 +43,7 @@ function Locations() {
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <i className="fab fa-github fa-3x" style={{ color: '#7E8D85' }}></i>
+                <i className="fab fa-github-square fa-2x" ></i>
               </a>
             </div>
           </div>
@@ -51,7 +51,7 @@ function Locations() {
             <h3 className="h4">Download Resume</h3>
             <div className="resume-download">
               <a
-                href="#"  // Add your resume file URL when available
+                href="public/assets/devResume (1).pdf"  // Add your resume file URL when available
                 className="btn btn-custom btn-lg"
                 download
               >

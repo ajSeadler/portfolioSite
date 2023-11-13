@@ -14,7 +14,7 @@ function Skills() {
     <div id="skills" className="container-fluid py-5">
       <div className="container p-4 rounded">
         <div className="coding-divider">
-        <i class="fa fa-cogs fa-3x fa-fw"></i>
+          <i class="fa fa-cogs fa-3x fa-fw"></i>
         </div>
         <h2 className="text-center mb-4" style={titleStyle}>
           SKILLS
@@ -33,8 +33,8 @@ function Skills() {
               <li className="list-group-item">Node.js</li>
               <li className="list-group-item">JavaScript</li>
               <li className="list-group-item">React / Redux</li>
-              <li className="list-group-item">Git</li>
               <li className="list-group-item">Express</li>
+              <li className="list-group-item">Git</li>
               <li className="list-group-item">HTML5</li>
               <li className="list-group-item">CSS</li>
               <li className="list-group-item">GitHub</li>

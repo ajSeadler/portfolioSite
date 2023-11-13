@@ -99,6 +99,29 @@ body {
   background-color: #7E8D85;
 }
 
+.card-title {
+  color: black;
+}
+
+.hyper-links {
+  display: flex;
+  gap: 10px;
+  color: #000000;
+}
+
+  
+.features li {
+  margin: 10px;
+}
+
+.hand {
+  color: black;
+}
+
+.bu {
+  color: #000000;
+}
+
 .card-body a {
   color: black;
 }
@@ -142,4 +165,15 @@ body {
 .navbar-collapse {
   display: flex;
   justify-content: end;
+}
+
+.mobile-icon {
+  display: none;
+}
+
+/* CSS for mobile view (max-width: 768px) */
+@media (max-width: 768px) {
+  .mobile-icon {
+    display: inline; /* Display the icons in mobile view */
+  }
 }
