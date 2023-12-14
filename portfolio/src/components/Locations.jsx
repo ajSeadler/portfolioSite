@@ -51,7 +51,7 @@ function Locations() {
             <h3 className="h4">Download Resume</h3>
             <div className="resume-download">
               <a
-                href="public/assets/devResume (1).pdf"  // Add your resume file URL when available
+                href="public/assets/devResume (2).pdf"  // Add your resume file URL when available
                 className="btn btn-custom btn-lg"
                 download
               >

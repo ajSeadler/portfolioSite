@@ -72,7 +72,7 @@ function ProjectsSection() {
           <div className="col-md-12 mb-4">
             <div className="card">
             <div class="d-flex justify-content-between align-items-center">
-    <i class="fas fa-arrow-right fa-1x mobile-icon"></i> 
+     
     <img
       src="/assets/forkit.png"
       className="card-img-top mx-auto clickable-image"
@@ -80,7 +80,7 @@ function ProjectsSection() {
       onClick={toggleDescription1}
       style={{ ...projectImageStyle, ...showDescription1 }}
     />
-    <i class="fas fa-arrow-left fa-1x mobile-icon"></i> 
+   
   </div>
 
               {/* <i id="githubIcon1" className="fab fa-github" style={githubIconStyle}></i> */}
@@ -163,7 +163,7 @@ function ProjectsSection() {
           <div className="col-md-12 mb-4">
             <div className="card">
             <div class="d-flex justify-content-between align-items-center">
-    <i class="fas fa-arrow-right fa-1x mobile-icon"></i> 
+    
     <img
       src="/assets/disco.png"
       className="card-img-top mx-auto clickable-image"
@@ -171,7 +171,7 @@ function ProjectsSection() {
       onClick={toggleDescription2}
       style={{ ...projectImageStyle, ...showDescription2 }}
     />
-    <i class="fas fa-arrow-left fa-1x mobile-icon"></i> 
+  
   </div>
               {/* <i id="githubIcon2" className="fab fa-github" style={githubIconStyle}></i> */}
               {showDescription2 && (
@@ -235,7 +235,7 @@ function ProjectsSection() {
           <div className="col-md-12 mb-4">
             <div className="card">
             <div class="d-flex justify-content-between align-items-center">
-    <i class="fas fa-arrow-right fa-1x mobile-icon"></i> 
+   
     <img
       src="/assets/zelda.png"
       className="card-img-top mx-auto clickable-image"
@@ -243,7 +243,7 @@ function ProjectsSection() {
       onClick={toggleDescription3}
       style={{ ...projectImageStyle, ...showDescription3 }}
     />
-    <i class="fas fa-arrow-left fa-1x mobile-icon"></i> 
+   
   </div>
               {/* <i id="githubIcon3" className="fab fa-github" style={githubIconStyle}></i> */}
               {showDescription3 && (
@@ -281,7 +281,7 @@ function ProjectsSection() {
           <div className="col-md-12 mb-4">
             <div className="card">
             <div class="d-flex justify-content-between align-items-center">
-    <i class="fas fa-arrow-right fa-1x mobile-icon"></i> 
+    
     <img
       src="/assets/eco.png"
       className="card-img-top mx-auto clickable-image"
@@ -289,7 +289,7 @@ function ProjectsSection() {
       onClick={toggleDescription4}
       style={{ ...projectImageStyle, ...showDescription4 }}
     />
-    <i class="fas fa-arrow-left fa-1x mobile-icon"></i> 
+   
   </div>
 
               {showDescription4 && (
