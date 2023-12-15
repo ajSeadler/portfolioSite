@@ -34,6 +34,8 @@ function Skills() {
               <li className="list-group-item">JavaScript</li>
               <li className="list-group-item">React / Redux</li>
               <li className="list-group-item">Express</li>
+              <li className="list-group-item">Python</li>
+              <li className="list-group-item">Flask</li>
               <li className="list-group-item">Git</li>
               <li className="list-group-item">HTML5</li>
               <li className="list-group-item">CSS</li>

@@ -4,6 +4,7 @@ function ProjectsSection() {
   const [showDescription2, setShowDescription2] = useState(false);
   const [showDescription3, setShowDescription3] = useState(false);
   const [showDescription4, setShowDescription4] = useState(false);
+  const [showDescription5, setShowDescription5] = useState(false);
 
   const toggleDescription1 = () => {
     setShowDescription1(!showDescription1);
@@ -31,6 +32,14 @@ function ProjectsSection() {
     setShowDescription1(false);
     setShowDescription2(false);
     setShowDescription3(false);
+  };
+
+  const toggleDescription5 = () => {
+    setShowDescription5(!showDescription5);
+    setShowDescription1(false);
+    setShowDescription2(false);
+    setShowDescription3(false);
+    setShowDescription4(false);
   };
 
   const projectDescriptionStyle = {
@@ -74,7 +83,7 @@ function ProjectsSection() {
             <div class="d-flex justify-content-between align-items-center">
      
     <img
-      src="/assets/forkit.png"
+      src="/assets/fork-it.png"
       className="card-img-top mx-auto clickable-image"
       alt="Fork-It Reviews Website"
       onClick={toggleDescription1}
@@ -119,8 +128,8 @@ function ProjectsSection() {
                     between multiple team members, and my role primarily
                     involved working on the back end by creating database tables
                     and building API routes. Additionally, I contributed to
-                    building React components, ensuring a well-rounded skill set
-                    in web development.
+                    building many of the React components, ensuring a well-rounded skill set
+                    in web development. Most of the Material UI styling is done by myself as well. 
                   </p>
                   <ul class="fa-ul features">
                     <li>
@@ -159,13 +168,96 @@ function ProjectsSection() {
             </div>
           </div>
         </div>
+
+        <div className="row">
+          <div className="col-md-12 mb-4">
+            <div className="card">
+            <div class="d-flex justify-content-between align-items-center">
+     
+    <img
+      src="/assets/weather_app.png"
+      className="card-img-top mx-auto clickable-image"
+      alt="Fork-It Reviews Website"
+      onClick={toggleDescription5}
+      style={{ ...projectImageStyle, ...showDescription5 }}
+    />
+   
+  </div>
+
+              {/* <i id="githubIcon1" className="fab fa-github" style={githubIconStyle}></i> */}
+              {showDescription5 && (
+                <div className="card-body" style={projectDescriptionStyle}>
+                  <h5 className="card-title">Weather or Not</h5>
+                  <p className="card-text">
+                    | Full Stack Developer | December 2023 <br />| Python, Flask, HTML, Boostrap 5
+                  </p>
+                  <div className="hyper-links">
+                    <a
+                      href="https://github.com/ajSeadler/py"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fab fa-github-square"></i> GitHub Repository
+                    </a>
+                    <a
+                      href="#projects"
+                      target="_self"
+                      rel="noopener noreferrer"
+                    >
+                      
+                      <i class="fa fa-hand-point-right"></i> Live Demo
+                    </a>
+                  </div>
+
+                  <p>
+                  Welcome to "Weather Or Not," a web application designed to provide users with current weather information. Here's a detailed breakdown of the key features and components of this project: (...p.s. this is my first real Python project! It was fully built from scratch by myself. The only content that was not 'built' by me would be the Open Weather Map API. It was a fun gateway into the world of python)
+                  </p>
+                  <ul class="fa-ul features">
+                    <li>
+                      <span class="fa-li">
+                        <i class="fas fa-terminal bu"></i>
+                      </span>
+                      Flask Framework: Developed using the Flask framework for Python, ensuring a robust and scalable structure.
+                    </li>
+                    <li>
+                      <span class="fa-li">
+                        <i class="fas fa-terminal bu"></i>
+                      </span>
+                      OpenWeatherMap API: Integrated with the OpenWeatherMap API to retrieve real-time weather data. Retrives current forecast, plus a 6 day forcast for your desired city. 
+                    </li>
+                    <li>
+                      <span class="fa-li">
+                        <i class="fas fa-terminal bu"></i>
+                      </span>
+                      Geopy for Location Data: Utilized Geopy to obtain location data based on city and state input.
+                    </li>
+                    <li>
+                      <span class="fa-li">
+                        <i class="fas fa-terminal bu"></i>
+                      </span>
+                      Bootstrap 5 Styling: Enhanced the visual appeal with Bootstrap 5, providing a responsive and modern design.
+                    </li>
+                    <li>
+                      <span class="fa-li">
+                        <i class="fas fa-terminal bu"></i>
+                      </span>
+                      Weather Icons: Incorporated Weather Icons to visually represent weather conditions.
+This project aims to deliver a seamless weather information experience, combining functionality with an intuitive user interface.
+                    </li>
+                  </ul>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+
         <div className="row">
           <div className="col-md-12 mb-4">
             <div className="card">
             <div class="d-flex justify-content-between align-items-center">
     
     <img
-      src="/assets/disco.png"
+      src="/assets/dsband.png"
       className="card-img-top mx-auto clickable-image"
       alt="Fork-It Reviews Website"
       onClick={toggleDescription2}
@@ -191,9 +283,9 @@ function ProjectsSection() {
                   <p>
                     Created a website for the rock band "Disco Stranger" to
                     enhance their online presence and engage with their
-                    audience. This was my first real website! It is a mobile
+                    audience. Built with React.js and Node.js. This was my first real website! It is a mobile
                     responsive website that showcases the band's music, videos,
-                    and upcoming events.
+                    and upcoming events. Site also features an animated 'blob' in the hero section. 
                   </p>
 
                   <ul class="fa-ul features">
@@ -201,7 +293,7 @@ function ProjectsSection() {
                       <span class="fa-li">
                         <i class="fas fa-terminal bu"></i>
                       </span>
-                      Implemented a countdown timer using JavaScript.
+                      Implemented a show/release countdown timer using JavaScript.
                     </li>
                     <li>
                       <span class="fa-li">

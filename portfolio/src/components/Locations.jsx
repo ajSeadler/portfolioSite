@@ -1,6 +1,9 @@
 import React from 'react';
 
 function Locations() {
+  const openResumeInNewWindow = () => {
+    window.open('https://docs.google.com/document/d/e/2PACX-1vROp0POv-eFk24nWJ985XXiJNiEsaO_SpC1yOsKYUKDzAIPX-7QG5q20cLqAoSHc1Eg8pASO5mDaZnG/pub?embedded=true', '_blank');
+  };
   return (
     <div id="locations" className="py-5" style={{ backgroundColor: '#333', color: '#fff' }}>
       <div className="container text-center">
@@ -48,17 +51,17 @@ function Locations() {
             </div>
           </div>
           <div className="col-md-12">
-            <h3 className="h4">Download Resume</h3>
-            <div className="resume-download">
-              <a
-                href="public/assets/devResume (2).pdf"  // Add your resume file URL when available
-                className="btn btn-custom btn-lg"
-                download
-              >
-                <i className="far fa-file-pdf fa-lg" style={{ color: 'white' }}></i> .pdf
-              </a>
-            </div>
+          <h3 className="h4"></h3>
+          <div className="resume-download">
+            <button
+              className="btn btn-custom btn-lg"
+              onClick={openResumeInNewWindow}
+            >
+              View Resume
+            </button>
           </div>
+        </div>
+
         </div>
       </div>
     </div>
